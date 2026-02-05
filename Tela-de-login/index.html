@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/Icon.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="formulario-login">
+            <h1 class="titulo-login">User Login</h1>
+
+            <form id="formulariologin" class="formulario">
+                <div class="grupo-input">
+                    <i class="fas fa-user icone-input"></i> <!-- i: italico -->
+                    <input type="text" id="usuario" placeholder="Username" required>
+                </div>
+
+                <div class="grupo-input">
+                    <i class="fas fa-lock icone-input"></i>
+                    <input type="password" id="senha" placeholder="Password" required>
+                </div>
+
+                <div class="opcoes-formulario">
+                    <label class="lembre-me">
+                        <input type="checkbox" id="lembreMe">
+                        <span class="marca-check"></span>
+                        Remember Me
+                    </label>
+
+                    <a href="#" class="esqueceu-senha">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="botao-login">LOGIN</button>
+            </form>
+
+            <div class="secao-cadastro">
+                <p class="texto-cadastrado">
+                    Don't have an account? <span class="botao-cadastrar">Register</span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="sobreposicao"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
