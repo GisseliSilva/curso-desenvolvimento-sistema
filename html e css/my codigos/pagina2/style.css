@@ -1,0 +1,149 @@
+.caixa-principal {
+    height: 8vh;
+    width: 98vw;
+    background-color: rgb(196, 200, 206);
+
+
+}
+
+ol{
+    display: flex;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: 300;
+    justify-content: space-between;
+    margin: 30px;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: 'Copykey', sans-serif;
+
+}
+
+
+
+
+
+/* lado esquerdo */
+.caixa-inferior {
+    height: 90vh;
+    width: 98vw;
+    background-color: #e5e9dc;
+    display: flex;
+
+
+
+}
+
+.caixa-biscoito {
+    height: 90vh;
+    width: 49vw;
+    background-color: #e5e9dc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+
+}
+
+/* parte do biscoito */
+.parte-bege {
+    height: 60vh;
+    width: 46vw;
+    background-color: #eebe69;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.parte-bege h1{
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+p.preço{
+    margin-top: 20px;
+    background: rgba(0, 128, 0, 0.644);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+p.avaliação{
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* parte branca  */
+.parte-branca {
+    height: 24vh;
+    width: 46vw;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.parte-branca h3{
+    margin-bottom: 10px;
+}
+
+.parte-branca ul{
+    list-style: none;
+    padding: 0;
+}
+
+.parte-branca li{
+    margin-bottom: 10px;
+}
+
+.parte-branca span{
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* lado direito */
+.caixa-school {
+    height: 90vh;
+    width: 50vw;
+    background-color: #e5e9dc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+
+.partechef {
+    margin-top: 10px;
+    background: white;
+    height: 30vh;
+    width: 46vw;
+    background-color: #91bde0;
+    border-radius: 20px;
+
+
+}
+
+.partefruta {
+    height: 56vh;
+    width: 46vw;
+    background-color: #e7975c;
+    border-radius: 20px;
+
+}

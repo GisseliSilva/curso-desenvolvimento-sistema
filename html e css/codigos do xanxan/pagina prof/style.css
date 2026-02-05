@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    box-sizing:border-box;
+}
+
+.menu {
+    width: 100vw;
+    height: 80px;
+    background-color: #f3f3f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo {
+    width: 16vw;
+    padding-left: 38px;
+}
+
+.menu-lista {
+    width: 30vw;
+    word-spacing: 50px;
+}
+
+.menu-contact {
+    width: 40vw;
+    padding-right: 38px;
+    text-align: right;
+}
+
+.principal {
+    width: 96vw;
+    background-color: black;
+    height: 56vh;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.principal-esquerdo {
+    width: 66.6666%;
+    height: 100%;
+    background-color: #f3f3f5;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.links{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:96px ;
+    margin: 40px 30px;
+    line-height: 98px;
+    font-weight: 700;
+}
+
+.touch{
+    margin-left: 30px;
+    margin-right: 20px;
+    background: #F8DFC8;
+    background: linear-gradient(19deg,rgba(248, 223, 200, 1) 0%, rgba(236, 158, 166, 1) 89%);
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 0;
+} 
+
+.m{
+    padding: 8px 14px;
+    border-radius: 50%;
+}
+
+
+.principal-direita {
+    width: 33.3333%;
+    height: 100%;
+    background-color: #f3f3f5;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.baixo{
+    width:96vw ;
+    background-color:black ;
+    height: 35vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.baixo-bloco{
+    width:100% ;
+    background-color:#f3f3f5;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.imagem-principal{
+    position: absolute;
+    top: 130px;
+    right: 420px;
+    width: 440px;
+
+}
+
+

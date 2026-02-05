@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    margin: 50px;
+}
+
+.laranja {
+    background-color: rgb(238, 114, 12);
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+    border: 2px solid rgb(29, 76, 179);
+}
+
+.azul {
+    height: 600px;
+    width: 600px;
+}
+
+.cima {
+    background-color: rgb(29, 76, 179);
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.baixo {
+    display: flex;
+    background-color: rgb(29, 76, 179);
+    width: 600px;
+    height: 550px;
+    margin: 50px;
+}
+
+.bolinhas {
+    display: flex;
+}
+
+.bolinha {
+    background-color: rgb(29, 76, 179);
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 55px;
+}

@@ -1,0 +1,107 @@
+.primeirafileira{
+    display: flex;
+}
+
+.segundafileira{
+    display: flex;
+    gap: 15px;
+}
+
+.tereirafileira{
+    display: flex;
+}
+
+.quartafileira{
+    display: flex;
+}
+
+.quintafileira{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.bloco1{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    
+}
+
+.bloco2{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    
+}
+
+.bloco3{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.bloco4{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.bloco5{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.bloco6{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.bloco7{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.bloco8{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.bloco9{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.bloco10{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+
+
+
+

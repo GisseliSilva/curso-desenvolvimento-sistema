@@ -1,0 +1,82 @@
+body{
+    display: flex;
+}
+
+.menu{
+   
+    background: #4663f2;
+background: linear-gradient(270deg, rgba(70, 99, 242, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    width: 430px;
+    height: 950px;
+    font-family: 'Gloock', sans-serif;
+                                                
+                                                
+                                                
+}
+.principal{
+    background-color: #3F5EFB;
+    width: 1500px;
+    height: 950px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2{
+    font-size:60px;
+    color: antiquewhite;
+    text-align: center;
+
+
+}
+
+.item{
+
+    font-size:30px;
+    color: rgb(255, 255, 254);
+    padding: 20px;
+   
+
+}
+
+ul{
+   margin: 20px;
+}
+
+.titulo{
+    height: 200px;
+    width: 1400px;
+    background-color:#D94A86;
+    
+}
+
+.titulo h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'amoera', sans-serif;
+                                   
+    font-size: 68px;
+}
+
+.descricao{
+    height: 250px;
+    width: 1400px;
+    background-color:#CC437C;
+   
+    
+}
+
+.cards{
+    height: 250px;
+    width: 1400px;
+    background-color:#BD316B;
+    
+   
+    
+
+}
+
+
+

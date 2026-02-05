@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: #0a0909;
+
+}
+
+/* caixas */
+
+.conteiner {
+    background-color: #f3f3f3;
+    margin: 40px auto;
+    height: 900px;
+    width: 4000px;
+    max-width: 1100px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.caixa-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #f3f3f5;
+    border-radius: 20px;
+
+
+}
+
+.conteudo-principal {
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    height: 400px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/* blocos */
+.primeiro-bloco {
+    width: 300px;
+    height: 300px;
+    background-color: #f3f3f3;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid black;
+
+
+}
+
+.segundo-bloco {
+    width: 300px;
+    height: 300px;
+    background-color: #f3f3f3;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+
+.terceiro-bloco {
+    width: 300px;
+    height: 300px;
+    background-color: #f3f3f3;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+.logotipo {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f5;
+
+}
+
+.texto-logotipo {
+    font-family: 'Margesh', sans-serif;                                      
+    font-size: 40px;
+    background-color: #f3f3f5;
+
+
+}
+
+.primeiro-bloco p {
+
+    padding-left: 60px;
+    padding-top: 10px;
+    background-color: #f3f3f3;
+}
+
+
+.segundo-bloco p {
+    padding-left: 60px;
+    padding-top: 10px;
+    background-color: #f3f3f3;
+}
+
+/* links */
+.links-navegacao {
+    display: flex;
+    list-style: none;
+    background-color: #f3f3f5;
+}
+
+.links-navegacao li {
+    margin: 0 15px;
+    background-color: #f3f3f5;
+}
+
+.links-navegacao a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    background-color: +rgb(224, 224, 224);
+}
+
+/* botao */
+.botao-contato {
+    padding: 8px 16px;
+    background: rgb(0, 0, 0);
+    color: rgb(247, 247, 247);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+.botao-acao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f3b2a3;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.conteiner span {
+    margin-left: 20px;
+}
+
+.conteiner button {
+    margin-right: 20px;
+}
+
+
+/* imagem */
+.terceiro-bloco img {
+    width: 300px;
+    border-radius: 30px;
+
+}
+
+.painel-baixo {
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    height: 400px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
